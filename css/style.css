@@ -1,0 +1,137 @@
+body{
+    font-family: Arial;
+   
+}
+
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-brand{
+color:#a67ecf ;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 18px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    
+    color:#a67ecf ;
+}
+/*** about section***/
+section.about ,section.product {
+    width: 100%;
+    height: auto;
+    padding:50px 0px;
+}
+section.about div.narrow h1 ,section.product div.narrow h1{
+font-size: 2em;
+font-weight: bold;
+color:#a67ecf ;
+margin-bottom: 2%;
+}
+section.about div.narrow p ,section.product div.narrow p{
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 5%;
+    
+}
+div.img{
+    background: url('../images/img_large_2.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-bottom: 5%;
+}
+div.img p{
+    margin-bottom: 0;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(0,0,0,0.3);
+    color: #888;
+}
+section.about img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+section.about .span span{
+    margin-bottom: 5%;
+}
+section.Sercive{
+ background: url('../images/img_large_5.jpg');
+ background-size: cover;
+ height: 400px;
+ background-attachment: fixed;
+ margin-top: 7%;
+ width: 100%;
+ text-align: center;
+}
+section.Sercive p{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 12%;
+    display: inline-block;
+}
+/**product section**/
+section.product img{
+width: 100%;
+height: 250px;
+margin-bottom: 5%;
+}
+/**choose***/
+section.choose {
+    background:#fbfbfb;
+    padding: 50px 0;
+    margin: 80px 0;
+    width: 100%;
+    height: auto;
+}
+section.choose i ,section.choose div.head{
+    float: left;
+}
+section.choose div.head p, section.choose div.head h2{
+    margin: 0;
+}
+section.choose i{
+    position: relative;
+    top:20px;
+    width: 20%;
+}
+section.choose div.head{
+    width: 80%;
+}
+section.choose div.head p{
+    color: #888;
+    line-height: 1.8;
+}
+section.choose div.head h2{
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    color: #a67ecf;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+footer i{
+    color: #fff;
+    background:#999;
+    border-radius: 50%;
+    padding: 15px;
+}
+footer p{
+    color: #888;
+    font-size: 18px;
+}
